@@ -1,4 +1,4 @@
-const alunos = [
+const alunosMedia = [
   { nome: "Aluno 1", nota: 7.5 },
   { nome: "Aluno 2", nota: 8.0 },
   { nome: "Aluno 3", nota: 6.2 },
@@ -30,7 +30,7 @@ const alunos = [
   { nome: "Aluno 29", nota: 8.9 },
   { nome: "Aluno 30", nota: 6.6 }
 ];
-let nomesAprovados = alunos
+let nomesAprovados = alunosMedia
     .filter(aluno => aluno.nota >= 6)
     .map(aluno => aluno.nome)
 
